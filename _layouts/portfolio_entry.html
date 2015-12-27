@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<div class="wrapper">
-        <section>
-        <h2 class="content">{{page.title}}</h2>
-
-          <p class="post-meta">
-                {{ page.date | date_to_string }}
-          </p>
-
-        <img src="{{ page.image }}" />
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">{{ page.title }}
+            <small>{{ page.subtitle }}</small>
+        </h1>
+        <img class="img-responsive" src="{{ page.image }}" />
+        <!--<p class="post-excerpt"> content  </p>-->
         {{ content }}
-    </section>
-
+    </div>
 </div>
+
+<hr>
+
