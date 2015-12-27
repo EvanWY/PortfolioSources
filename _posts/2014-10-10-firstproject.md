@@ -1,7 +1,7 @@
 ---
 layout: portfolio_entry
 title: Tiny Empire
-image: /img/tiny-empire/cover.png
+image: /img/tiny-empire/cover.jpg
 ---
 
 Post excerpt goes here. The first paragraph will be shown only, along with a read more button which links to the full post. Perfect for placing project descriptions or to actually blog about something!

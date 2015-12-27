@@ -25,7 +25,7 @@ layout: default
     </div>
     <div class="col-md-5">
         <h3>{{ post.title }}</h3>
-        <h4>{{ post.date | date_to_string }}</h4>
+        <h4>{{ post.subtitle }}</h4>
         <p class="post-excerpt">{{ post.excerpt | strip_html }} </p>
         <a class="btn btn-primary" href="{{ post.url }}">
             View Project 
@@ -33,7 +33,7 @@ layout: default
         </a>
     </div>
 </div>
+<hr>
 <!-- /.row -->
 {% endfor %}
 
-<hr>
