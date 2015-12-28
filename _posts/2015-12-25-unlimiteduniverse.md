@@ -7,3 +7,5 @@ category: game
 ---
 
 when I.
+
+![Alt text](/img/tinyempire/cover.jpg "Optional title")
