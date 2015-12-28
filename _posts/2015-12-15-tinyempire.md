@@ -1,7 +1,7 @@
 ---
 layout: portfolio_entry
 title: Tiny Empire
-subtitle: Oct 2014 to Feb 2015
+subtitle: Jan 2015 to May 2015
 image: /img/tinyempire/cover.jpg
 ---
 
