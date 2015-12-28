@@ -1,6 +1,0 @@
-jekyll build -d ../EvanWY.github.io
-cd ../EvanWY.github.io
-git add -A .
-git commit -m "AUTO"
-git push origin master
-
