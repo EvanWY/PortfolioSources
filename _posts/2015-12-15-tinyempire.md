@@ -6,9 +6,9 @@ image: /img/tinyempire/cover.jpg
 category: game
 ---
 
-Tiny Empire is a Three-Kingdoms-themed strategic game, players can change formation of generals and cast special skill to win battles.
+Tiny Empire is a Three-Kingdoms-themed strategic game, players can change formation of generals and cast special skill to win battles. I work as a front-end programmer in this game during my internship in Tiantuo Company.
 
-#### Gameplay
+### Overview
 
 Post excerpt goes here. The first paragraph will be shown only, along with a read more button which links to the full post. Perfect for placing project descriptions or to actually blog about something!
 
