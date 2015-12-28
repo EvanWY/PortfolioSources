@@ -3,6 +3,7 @@ layout: portfolio_entry
 title: Tiny Empire
 subtitle: Jan 2015 to May 2015
 image: /img/tinyempire/cover.jpg
+category: game
 ---
 
 Tiny Empire is a Three-Kingdoms-themed strategic game, players can change formation of generals and cast special skill to win battles.
