@@ -26,6 +26,7 @@ Tiny Empire is a Three-Kingdoms-themed strategic game, players can change format
 * Friends System
 * Patrolling Soldier Effect
 * Wordfilter System
+* Customer Services System
 
 ### Challenges
 
