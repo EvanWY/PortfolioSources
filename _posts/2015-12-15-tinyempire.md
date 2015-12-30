@@ -18,8 +18,6 @@ Tiny Empire is a Three-Kingdoms-themed strategic game, players can change format
 	* Official Site -- [http://sg.3737.com/html/index.html](http://sg.3737.com/html/index.html)
 	* App Store -- [https://itunes.apple.com/us/app/tiny-empire-rise-of-heroes/id974542669?mt=8](https://itunes.apple.com/us/app/tiny-empire-rise-of-heroes/id974542669?mt=8) 
 
-### Video
-<iframe width="600" height="400" src="http://www.youtube.com/embed/suq4ts3epEs" frameborder="0" allowfullscreen></iframe>
 
 ### Responsibilities
 
@@ -33,4 +31,10 @@ Tiny Empire is a Three-Kingdoms-themed strategic game, players can change format
 This was the first time I worked in a 
 
 
+### Video & Screenshots
+<iframe width="600" height="400" src="http://www.youtube.com/embed/suq4ts3epEs" frameborder="0" allowfullscreen></iframe>
 
+<p align="left" style="margin-left:60px;">
+<img src="/img/hunter/mainscene.jpg" align="middle" style="margin:5px 3px" width="368" height="207"/>
+<img src="/img/hunter/battle.jpg" align="middle" style="margin:5px 3px" width="368" height="207"/>
+</p>
