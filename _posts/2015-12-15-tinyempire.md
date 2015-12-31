@@ -42,5 +42,5 @@ This was the first time I worked in a commercial game project. Our lead designer
 * **Extreme attention to details.** This was the biggest difference between commercial game and my own games. For example,  The "send" button in the chat panel was describe by 2 pages of design document, all special cases were fully discussed.
 
 ### Video
-<iframe width="600" height="400" src="http://www.youtube.com/embed/suq4ts3epEs" frameborder="0" allowfullscreen></iframe>
+<iframe width="510" height="340" src="http://www.youtube.com/embed/suq4ts3epEs" frameborder="0" allowfullscreen></iframe>
 
