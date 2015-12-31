@@ -15,9 +15,12 @@ Tiny Empire is a Three-Kingdoms-themed strategic game, players can change format
 * **Tools**: Cocos2D, Lua
 * **Platforms**: Android, iOS
 * **Links**:
-* Official Site -- [http://sg.3737.com/html/index.html](http://sg.3737.com/html/index.html)
-* App Store -- [https://itunes.apple.com/us/app/tiny-empire-rise-of-heroes/id974542669?mt=8](https://itunes.apple.com/us/app/tiny-empire-rise-of-heroes/id974542669?mt=8) 
+    * Official Site -- [http://sg.3737.com/html/index.html](http://sg.3737.com/html/index.html)
+    * App Store -- [https://itunes.apple.com/us/app/tiny-empire-rise-of-heroes/id974542669?mt=8](https://itunes.apple.com/us/app/tiny-empire-rise-of-heroes/id974542669?mt=8) 
 
+<p align="left" style="margin-left:60px;">
+<img src="/img/hunter/mainscene.jpg" align="middle" style="margin:5px 3px" width="368" height="207"/>
+<img src="/img/hunter/battle.jpg" align="middle" style="margin:5px 3px" width="368" height="207"/>
 
 ### Responsibilities
 
@@ -39,6 +42,3 @@ This was the first time I worked in a commercial game project. Our lead designer
 ### Video & Screenshots
 <iframe width="600" height="400" src="http://www.youtube.com/embed/suq4ts3epEs" frameborder="0" allowfullscreen></iframe>
 
-<p align="left" style="margin-left:60px;">
-<img src="/img/hunter/mainscene.jpg" align="middle" style="margin:5px 3px" width="368" height="207"/>
-<img src="/img/hunter/battle.jpg" align="middle" style="margin:5px 3px" width="368" height="207"/>
