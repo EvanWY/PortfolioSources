@@ -21,6 +21,7 @@ Tiny Empire is a Three-Kingdoms-themed strategic game, players can change format
 <p align="left" style="margin-left:60px;">
 <img src="/img/hunter/mainscene.jpg" align="middle" style="margin:5px 3px" width="368" height="207"/>
 <img src="/img/hunter/battle.jpg" align="middle" style="margin:5px 3px" width="368" height="207"/>
+</p>
 
 ### Responsibilities
 
