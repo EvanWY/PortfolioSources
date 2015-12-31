@@ -17,6 +17,7 @@ Tiny Empire is a Three-Kingdoms-themed strategic game, players can change format
 * **Links**:
     * Official Site -- [http://sg.3737.com/html/index.html](http://sg.3737.com/html/index.html)
     * App Store -- [https://itunes.apple.com/us/app/tiny-empire-rise-of-heroes/id974542669?mt=8](https://itunes.apple.com/us/app/tiny-empire-rise-of-heroes/id974542669?mt=8) 
+* **Screenshots**:
 
 <p align="left" style="margin-left:60px;">
 <img src="/img/hunter/mainscene.jpg" align="middle" style="margin:5px 3px" width="368" height="207"/>
@@ -40,6 +41,6 @@ This was the first time I worked in a commercial game project. Our lead designer
 
 * **Extreme attention to details.** This was the biggest difference between commercial game and my own games. For example,  The "send" button in the chat panel was describe by 2 pages of design document, all special cases were fully discussed.
 
-### Video & Screenshots
+### Video
 <iframe width="600" height="400" src="http://www.youtube.com/embed/suq4ts3epEs" frameborder="0" allowfullscreen></iframe>
 
