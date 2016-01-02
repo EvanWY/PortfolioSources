@@ -1,9 +1,10 @@
 ---
 layout: portfolio_entry
 title: Tiny Empire
-subtitle: Feb 2015 to May 2015
+timetext: Feb 2015 to May 2015
+subtitle: Feb 2015 to May 2015 
 image: /img/tinyempire/cover.jpg
-category: game
+category: commercialgame
 ---
 
 Tiny Empire is a Three-Kingdoms-themed strategic game, players can change formation of generals and cast special skill to win battles. I work as a front-end programmer in this game, using Cocos 2D and Lua.
@@ -12,7 +13,7 @@ Tiny Empire is a Three-Kingdoms-themed strategic game, players can change format
 
 * **Role**: Front-end Programmer
 * **Team**: 30 People, Tiantuo Company
-* **Tools**: Cocos2D, Lua
+* **Tools**: Cocos2D-x, Lua
 * **Platforms**: Android, iOS
 * **Links**:
     * Official Site -- [http://sg.3737.com/html/index.html](http://sg.3737.com/html/index.html)
