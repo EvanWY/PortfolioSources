@@ -2,7 +2,7 @@
 layout: portfolio_entry
 title: Fishing Day
 timetext: Apr 2015
-subtitle: First attempt to finish a complete game
+subtitle: First attempt to finish a complete game by myself
 image: /img/fishingday/cover.jpg
 category: game
 ---

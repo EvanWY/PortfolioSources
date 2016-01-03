@@ -1,8 +1,8 @@
 ---
 layout: portfolio_entry
 title: Olive Tree
-timetext: 2014
-subtitle:
+timetext: 2014 to 2015
+subtitle: Sound recording and mixing
 image: /img/olivetree/cover.jpg
 category: other
 ---
