@@ -2,7 +2,7 @@
 layout: portfolio_entry
 title: Olive Tree
 timetext: 2014
-subtitle: 2014
+subtitle:
 image: /img/olivetree/cover.jpg
 category: other
 ---

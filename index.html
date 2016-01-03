@@ -23,7 +23,7 @@ layout: default
         </a>
     </div>
     <div class="col-md-7">
-        <h5>{{ post.title }}</h5>
+        <h5>{{ post.title }}&nbsp;&nbsp;<small><small>{{ post.timetext }}</small></small></h5>
         <h6>{{ post.subtitle }}</h6>
         <p class="post-excerpt">{{ post.excerpt | strip_html }} </p>
         <a class="btn btn-primary" href="{{ post.url }}">
@@ -63,11 +63,11 @@ layout: default
         </a>
     </div>
     <div class="col-md-7">
-        <h5>{{ post.title }}</h5>
+        <h5>{{ post.title }}&nbsp;&nbsp;<small><small>{{ post.timetext }}</small></small></h5>
         <h6>{{ post.subtitle }}</h6>
-        <p class="post-excerpt">{{ post.excerpt | strip_html }} </p>
+        <p class="post-excerpt"> {{ post.excerpt | strip_html }} </p>
         <a class="btn btn-primary" href="{{ post.url }}">
-            View Project 
+            View Project
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
     </div>
@@ -104,7 +104,7 @@ layout: default
         </a>
     </div>
     <div class="col-md-7">
-        <h5>{{ post.title }}</h5>
+        <h5>{{ post.title }}&nbsp;&nbsp;<small><small>{{ post.timetext }}</small></small></h5>
         <h6>{{ post.subtitle }}</h6>
         <p class="post-excerpt">{{ post.excerpt | strip_html }} </p>
         <a class="btn btn-primary" href="{{ post.url }}">

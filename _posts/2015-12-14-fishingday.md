@@ -1,13 +1,12 @@
 ---
 layout: portfolio_entry
 title: Fishing Day
-timetext:
-subtitle: Apr 2015
+timetext: Apr 2015
+subtitle: First attempt to finish a complete game
 image: /img/fishingday/cover.jpg
 category: game
 ---
-
-Fishing Day is a fishing game demo, player shoot a fish trap to catch fish. I finish this demo in one day, including painting and coding.
+Fishing Day is a fishing game demo, player shoot a fish trap to catch fish. It was the first time I tried to make a game by myself, also the first time I tried to paint in a game project. This project was finished in one day.
 
 ###Overview
 

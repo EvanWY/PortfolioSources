@@ -2,7 +2,7 @@
 layout: portfolio_entry
 title: Tiny Empire
 timetext: Feb 2015 to May 2015
-subtitle: Feb 2015 to May 2015 
+subtitle: The first time I learn about commercial game
 image: /img/tinyempire/cover.jpg
 category: commercialgame
 ---
