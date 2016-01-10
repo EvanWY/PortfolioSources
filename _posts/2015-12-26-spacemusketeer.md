@@ -15,10 +15,6 @@ It is a multiplayer online shooting game, with top-down perspective and twin sti
 * **Platform**: iOS 
 * **Tools**: Unity 3D, MongoDB, Photoshop, etc.
 
-###Video
-
-<iframe width="510" height="340" src="http://www.youtube.com/embed/w" frameborder="0" allowfullscreen></iframe>
-
 ###Challenges
 
 ####Graphic Performance
@@ -29,13 +25,43 @@ It is a multiplayer online shooting game, with top-down perspective and twin sti
 
 * **Solution: Change character models and game object resources.** Actually, I change the art style of the entire game.
 
-* **Result: The fps increased from 30 to 60. Characters became easily recognizable.** 
+<div style="width:100%;"><div style="margin-left:50px;">
+	Old character and level objects
+	<div style="width:100%;"><div style="margin-left:15px;">
+		<img src="/img/spacemusketeer/v2lobby.jpg" align="middle" style="margin:5px 3px" width="400"/>
+		<img src="/img/spacemusketeer/v2scene.jpg" align="middle" style="margin:5px 3px" width="400"/>
+	</div></div>
+	New character and level objects
+	<div style="width:100%;"><div style="margin-left:15px;">
+		<img src="/img/spacemusketeer/v3lobby.jpg" align="middle" style="margin:5px 3px" width="400"/>
+		<img src="/img/spacemusketeer/v3scene.jpg" align="middle" style="margin:5px 3px" width="400"/>
+	</div></div>
+</div></div>
+
+* **Result: The fps increased from 30 to 80. Characters became easily recognizable.** 
+<div style="width:100%;"><div style="margin-left:50px;">
+	Old version performance
+	<div style="width:100%;"><div style="margin-left:15px;">
+		<img src="/img/spacemusketeer/v2performance.jpg" align="middle" style="margin:5px 3px"/>
+	</div></div>
+	New version performance
+	<div style="width:100%;"><div style="margin-left:15px;">
+		<img src="/img/spacemusketeer/v3performance.jpg" align="middle" style="margin:5px 3px"/>
+	</div></div>
+</div></div>
 
 ####Network
 
 * **Problem: I used UNet as network solution, but it doesn't support multi-room.** UNet is a high level abstraction framework provided by Unity. It can solve complex problems with simple code. But each server could only have 1 battle field. It was difficult to build a game lobby with more than one rooms.
 
 * **Solution: I built a new network toplogy model.** It has three types of nodes, Master Server Node, Slave Server Node and Client Node. Master server runs first, and slave server and client connect to it. When a client request to start a battle, the master server assign a slave server to set up the battle field, then tell the client to connect to it.
+
+<div style="width:100%;"><div style="margin-left:50px;">
+	<div style="width:100%;"><div style="margin-left:15px;">
+		<img src="/img/spacemusketeer/networkinit.jpg" align="middle" style="margin:5px 3px" width="400"/>
+		<img src="/img/spacemusketeer/networkconnect.jpg" align="middle" style="margin:5px 3px" width="400"/>
+	</div></div>
+</div></div>
 
 * **Result: It works well. It can also solve network latency problem.** This solution seperate rooms and lobby, so we can put slave servers all over the world. Then the network latency problem will be easily solved.
 
