@@ -15,6 +15,10 @@ It is a multiplayer online shooting game, with top-down perspective and twin sti
 * **Platform**: iOS 
 * **Tools**: Unity 3D, MongoDB, Photoshop, etc.
 
+###Video
+
+<iframe width="600" height="338" src="http://www.youtube.com/embed/wPkRVZj8reQ" frameborder="0" allowfullscreen></iframe>
+
 ###Challenges
 
 ####Graphic Performance
@@ -89,6 +93,72 @@ It is a multiplayer online shooting game, with top-down perspective and twin sti
 
 * **Result: The character model was able to walk fluent when shooting to all directions.** 
 
+<div style="width:100%;"><div style="margin-left:50px;">
+	<div style="width:100%;"><div style="margin-left:15px;">
+		<iframe width="240" height="200" src="http://www.youtube.com/embed/9PYjoBFz-kE" frameborder="0" allowfullscreen></iframe>
+	</div></div>
+</div></div>
+
+
+####Lighting
+
+* **Problem: Need lighting and shadow effect for static object and character.** I couldn't use real-time lighting because it has very high performance impact. 
+
+* **Solution: Baked GI for static object, light probe and shadow shader for character.** I add a pass in the character model shader. And this pass could draw a shadow of the character. The character model shadow shader code:
+
+<div style="width:100%;">
+<div style="margin-left:50px;">
+{% highlight C++ %}
+Tags { "Queue" = "Transparent" }
+
+Pass {
+    // use stencil to prevent overdraw, overdraw of transparent object is unacceptable
+    Stencil {
+        Ref 1
+        Comp notequal
+        Pass replace
+    }
+
+    Blend SrcAlpha OneMinusSrcAlpha
+
+    CGPROGRAM
+        #pragma vertex vert
+        #pragma fragment frag
+
+        // project the model to the plane which y=2.501 
+        float4 vert(float4 vertex : POSITION) : SV_POSITION {
+            float4 m1 = mul(_Object2World, vertex);
+            float h = m1.y - 2.501;
+            m1.x -= h * 0.32;
+            m1.z -= h * 0.24;
+            m1.y = 2.501;
+            return mul(UNITY_MATRIX_VP, m1);
+        }
+
+        // draw the model with fixed color
+        fixed4 frag() : SV_Target {
+            return fixed4(0,0,0,0.3);
+        }
+    ENDCG
+} 
+{% endhighlight %}
+</div>
+</div>
+
+* **Result: Greatly improve the graphic quality.**
+
+<div style="width:100%;"><div style="margin-left:50px;">
+	Old static objects and static objects after Baked GI
+	<div style="width:100%;"><div style="margin-left:15px;">
+		<img src="/img/spacemusketeer/v3scene3.jpg" align="middle" style="margin:5px 3px" width="600"/>
+		<img src="/img/spacemusketeer/v3scene4.jpg" align="middle" style="margin:5px 3px" width="600"/>
+	</div></div>
+	Character shadow
+	<div style="width:100%;"><div style="margin-left:15px;">
+		<img src="/img/spacemusketeer/noshadow.jpg" align="middle" style="margin:5px 3px" height="200"/>
+		<img src="/img/spacemusketeer/shadow.jpg" align="middle" style="margin:5px 3px" height="200"/>
+	</div></div>
+</div></div>
 
 ####Physics
 
