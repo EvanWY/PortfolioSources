@@ -1,1 +1,12 @@
-hello unity json github
+<server>
+	<master> 
+		<ip>localhhhhhost</ip>
+		<port></port>
+	</master>
+
+	<database>
+		<connstr>mongodb://120.24.248.247:27017</connstr>
+		<dbname>OwlPlayerDatabase</dbname>
+		<collname>v1.0.0</collname>
+	</database>
+</server>
